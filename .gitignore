@@ -1,4 +1,6 @@
 *.py[cod]
+venv
+staticfiles
 
 # C extensions
 *.so
