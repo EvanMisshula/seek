@@ -1,0 +1,166 @@
+.tourChoiceSegment {
+    font-size: 16px;
+    text-align: left;
+    background-size: 180px 220px;
+    display: inline-block;
+}
+
+#boardSize {
+    background: #F7FE2E;
+    color: #F7FE2E;
+}
+
+#startingPosition {
+    background: #F7FE2E;
+    color: #F7FE2E;
+}
+
+.selectorContent{
+    background-color:#FAFAFA;/*#F7FE2E;*/
+    /*margin: 5px;*/
+    height:80px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0px;
+    border: 1px solid black;
+    }
+
+.EvenSquare, .OddSquare {
+    font-size: 36px;
+    text-align: center;
+}
+    
+.EvenSquare {
+    background: #59751D;
+    color: #FFFFFF;
+}
+
+.OddSquare {
+    background: #FAFAFA;
+    color: #000000;
+}
+            .animation {
+                background-color:#524848;
+                overflow: hidden;
+                margin: 20px 0;
+            }
+            .right-room {
+                margin: 0px 20px 0px 0px;
+            }
+            .left-room {
+                margin: 0px 0px 0px 20px;
+            }
+            .span12 {
+                color: black;
+                padding: 10px;
+                text-align: left;
+            }
+            .span8, .span6 {
+                padding: 20px 0;
+                text-align: left;               
+                /*margin: 40px 0 0 10px;*/
+            }
+            .span7, .span5 {
+                padding: 20px 0;
+                text-align: left;           
+                /*margin: 40px 0 0 10px;*/
+            }
+            .span4 {
+                padding: 20px 0;
+            }
+            .headroom {
+                margin-top: 10px;
+            }
+            .knight-info {
+                background-color: #ccf;
+            }
+            .side-room {
+                padding: 0 20px 0 20px;
+            }
+
+            .form-small .control-label {
+                width: 50px;
+            }
+            .form-small .controls {
+                margin-left: 20px;
+            }
+            .no-padding {
+                padding: 0;
+            }
+            .control-label {
+                width: 60px;
+            }
+            .radiobutton {
+                margin: 20px;
+                padding: 20px;
+            }
+            .middle {
+                text-align: center;
+            }
+            .selections {
+                background-color: #fff;
+            }
+            .leftpad {
+                margin-left: 100px;
+            }
+            .indent {
+                margin-left: 20px;
+            }
+            .BODY_FREEZE { 
+            width: 100%; 
+            height: 100%; 
+            min-height:100%; 
+            position: absolute; 
+            z-index: 1; 
+            overflow: hidden; 
+            left: 0px; 
+            top: 0px; 
+            opacity: .4; 
+            filter: alpha(opacity=40); 
+            background-color: #CCCCCC;
+            } 
+            .POP_LAYER {
+            display: inline-block;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 400px;
+            height: 100px;
+            margin: auto;
+            background-color: #FFF;
+            
+            z-index: 2;
+            overflow: hidden;
+            /*
+            opacity: .4;
+            filter: alpha(opacity=40);
+            
+            /*
+            width: 100%; 
+            height: 100%; 
+            min-height:100%; 
+            position: absolute; 
+            z-index: 2; 
+            overflow: hidden; 
+            left: 0px; 
+            top: 0px; 
+            opacity: .4; 
+            filter: alpha(opacity=40); 
+            background-color: #CCCCCC;
+            */
+            } 
+            
+            .POP_LAYER_NONE { 
+            visibility: hidden;
+            height: 0px;
+            }
+            .body-class{
+                
+            }
